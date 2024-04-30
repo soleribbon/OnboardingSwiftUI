@@ -11,8 +11,8 @@ import SwiftUI
 struct Globals {
     
     //GENERAL
-    static let appName = "Simple Reverb Calculator"
-    static let appIcon = "OnboardingAppIcon"
+    static let appName = "Insert App Name"
+    static let appIcon = "App Icon Name"
     static let actionButtonColor = UIColor.systemBlue
     //Also try: Color(hex: "#3F51B5")
     
