@@ -1,5 +1,8 @@
+<p align="center">
+  <img src="https://github.com/soleribbon/OnboardingSwiftUI/blob/main/darkModeDemo.gif?raw=true" width="100" alt="Dark Mode Demo"/>
+  <img src="https://github.com/soleribbon/OnboardingSwiftUI/blob/main/lightModeDemo.gif?raw=true" width="100" alt="Light Mode Demo"/>
+</p>
 <h1 align="center">OnboardingSwiftUI</h1>
-
 <div align="center">
 
 Series of simple onboarding views, including email collection, GIF display, and features list.
