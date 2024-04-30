@@ -1,21 +1,26 @@
-//
-//  ContentView.swift
-//  TestingOnboarding
-//
-//  Created by Ravi Heyne on 07/04/24.
-//
-
 import SwiftUI
+import SlideOverCard
+
 
 struct ContentView: View {
+    @State var activeCard: Bool = false
+    @State private var contentState: CardContent = .welcome
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Show Onboarding") {
+                activeCard = true
+            }
+            
         }
-        .padding()
+        .slideOverCard(isPresented: $activeCard, options: [.hideDismissButton], style: SOCStyle(
+            innerPadding: 18.0,
+            outerPadding: 16.0,
+            dimmingOpacity: 0.37
+        )) {
+            DynamicOnboardingViewWrapper(contentState: $contentState, activeCard: $activeCard)
+        }
+        
     }
 }
 

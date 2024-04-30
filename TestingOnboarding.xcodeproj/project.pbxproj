@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		531BD2DB2BC2CDB1009277BE /* TestingOnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2DA2BC2CDB1009277BE /* TestingOnboardingApp.swift */; };
-		531BD2DD2BC2CDB1009277BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BD2DC2BC2CDB1009277BE /* ContentView.swift */; };
 		531BD2DF2BC2CDB3009277BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531BD2DE2BC2CDB3009277BE /* Assets.xcassets */; };
 		531BD2E22BC2CDB3009277BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531BD2E12BC2CDB3009277BE /* Preview Assets.xcassets */; };
+		5332C2272BD52EFB0066C2B9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C2262BD52EFB0066C2B9 /* WelcomeView.swift */; };
+		5332C2292BD534100066C2B9 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C2282BD534100066C2B9 /* FeaturesView.swift */; };
+		5332C22B2BD5354D0066C2B9 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C22A2BD5354D0066C2B9 /* EmailView.swift */; };
+		5332C22D2BD5357A0066C2B9 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C22C2BD5357A0066C2B9 /* FinalView.swift */; };
+		5332C2312BD66CCA0066C2B9 /* GIFBreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C2302BD66CCA0066C2B9 /* GIFBreakdownView.swift */; };
+		5332C2372BD67C670066C2B9 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C2362BD67C670066C2B9 /* GIFImageView.swift */; };
+		5332C2392BD69DB20066C2B9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C2382BD69DB20066C2B9 /* Globals.swift */; };
+		5332C23B2BD6A32B0066C2B9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332C23A2BD6A32B0066C2B9 /* ActionButton.swift */; };
+		53A4DA602BD419250097E057 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 53A4DA5F2BD419250097E057 /* SlideOverCard */; };
+		53A4DA622BD419870097E057 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A4DA612BD419870097E057 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		531BD2D72BC2CDB1009277BE /* TestingOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531BD2DA2BC2CDB1009277BE /* TestingOnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingOnboardingApp.swift; sourceTree = "<group>"; };
-		531BD2DC2BC2CDB1009277BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		531BD2DE2BC2CDB3009277BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		531BD2E12BC2CDB3009277BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5332C2262BD52EFB0066C2B9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5332C2282BD534100066C2B9 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		5332C22A2BD5354D0066C2B9 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		5332C22C2BD5357A0066C2B9 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		5332C2302BD66CCA0066C2B9 /* GIFBreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFBreakdownView.swift; sourceTree = "<group>"; };
+		5332C2362BD67C670066C2B9 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
+		5332C2382BD69DB20066C2B9 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		5332C23A2BD6A32B0066C2B9 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		53A4DA612BD419870097E057 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A4DA602BD419250097E057 /* SlideOverCard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				531BD2DA2BC2CDB1009277BE /* TestingOnboardingApp.swift */,
-				531BD2DC2BC2CDB1009277BE /* ContentView.swift */,
+				53A4DA612BD419870097E057 /* ContentView.swift */,
+				538F0C392BE15D3D00FFF760 /* Views */,
+				538F0C3A2BE15D5C00FFF760 /* Sources */,
 				531BD2DE2BC2CDB3009277BE /* Assets.xcassets */,
 				531BD2E02BC2CDB3009277BE /* Preview Content */,
 			);
@@ -65,6 +85,28 @@
 				531BD2E12BC2CDB3009277BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		538F0C392BE15D3D00FFF760 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5332C2262BD52EFB0066C2B9 /* WelcomeView.swift */,
+				5332C2282BD534100066C2B9 /* FeaturesView.swift */,
+				5332C2302BD66CCA0066C2B9 /* GIFBreakdownView.swift */,
+				5332C22A2BD5354D0066C2B9 /* EmailView.swift */,
+				5332C22C2BD5357A0066C2B9 /* FinalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		538F0C3A2BE15D5C00FFF760 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5332C2382BD69DB20066C2B9 /* Globals.swift */,
+				5332C2362BD67C670066C2B9 /* GIFImageView.swift */,
+				5332C23A2BD6A32B0066C2B9 /* ActionButton.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +125,9 @@
 			dependencies = (
 			);
 			name = TestingOnboarding;
+			packageProductDependencies = (
+				53A4DA5F2BD419250097E057 /* SlideOverCard */,
+			);
 			productName = TestingOnboarding;
 			productReference = 531BD2D72BC2CDB1009277BE /* TestingOnboarding.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,9 @@
 				Base,
 			);
 			mainGroup = 531BD2CE2BC2CDB1009277BE;
+			packageReferences = (
+				53A4DA5E2BD419250097E057 /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+			);
 			productRefGroup = 531BD2D82BC2CDB1009277BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				531BD2DD2BC2CDB1009277BE /* ContentView.swift in Sources */,
+				5332C2372BD67C670066C2B9 /* GIFImageView.swift in Sources */,
+				53A4DA622BD419870097E057 /* ContentView.swift in Sources */,
+				5332C22D2BD5357A0066C2B9 /* FinalView.swift in Sources */,
+				5332C2272BD52EFB0066C2B9 /* WelcomeView.swift in Sources */,
+				5332C23B2BD6A32B0066C2B9 /* ActionButton.swift in Sources */,
+				5332C22B2BD5354D0066C2B9 /* EmailView.swift in Sources */,
 				531BD2DB2BC2CDB1009277BE /* TestingOnboardingApp.swift in Sources */,
+				5332C2312BD66CCA0066C2B9 /* GIFBreakdownView.swift in Sources */,
+				5332C2292BD534100066C2B9 /* FeaturesView.swift in Sources */,
+				5332C2392BD69DB20066C2B9 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +331,7 @@
 				DEVELOPMENT_TEAM = JPXSGQNS89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Testing Onboard";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raviheyne.TestingOnboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = raviheyne.TestingOnboarding2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,6 +361,7 @@
 				DEVELOPMENT_TEAM = JPXSGQNS89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Testing Onboard";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raviheyne.TestingOnboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = raviheyne.TestingOnboarding2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53A4DA5E2BD419250097E057 /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53A4DA5F2BD419250097E057 /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53A4DA5E2BD419250097E057 /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 531BD2CF2BC2CDB1009277BE /* Project object */;
 }
