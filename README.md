@@ -23,6 +23,4 @@ Series of simple onboarding views, including email collection, GIF display, and 
 <br/>
 
 > ❕ **Note:** API server required in order to receive POST requests from **[EmailView](../main/TestingOnboarding/Views/EmailView.swift)** 
->```sh
->static let emailAPIURL = "INSERT YOUR EMAIL API POST REQUEST URL HERE"
->```
+
