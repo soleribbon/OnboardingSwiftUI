@@ -15,7 +15,7 @@ Series of simple onboarding views, including email collection, GIF display, and 
 
 1. **Clone / Download Project**
 
-2.  📦 Install  **[SlideOverCard Swift Package](https://github.com/idchlife/node-telegram-bot-api-middleware)**: Swift package for dynamic sheets
+2.  📦 Install  **[SlideOverCard Swift Package](https://github.com/joogps/SlideOverCard)**: Swift package for dynamic sheets
 
 2.  📝 Edit **[Globals.swift](../main/TestingOnboarding/Sources/Globals.swift)** to your project preferences 
 
