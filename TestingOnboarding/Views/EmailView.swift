@@ -95,7 +95,6 @@ struct EmailView: View {
         }
         .padding(.horizontal)
         .background(RoundedRectangle(cornerRadius: 10).fill(Color.gray.opacity(0.2)))
-        
         //        .onChange(of: email) { newValue, _ in
         //            isErrorVisible = !isValidEmail(newValue)
         //        }
@@ -141,7 +140,7 @@ struct EmailView: View {
             return
         }
         //Please don't see this and abuse my API
-        let url = URL(string: "https://raviheyne.com/epicapi/submitEmail")!
+        let url = URL(string: Globals.emailAPIURL)!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")

@@ -14,9 +14,9 @@ struct ContentView: View {
             
         }
         .slideOverCard(isPresented: $activeCard, options: [.hideDismissButton], style: SOCStyle(
-            innerPadding: 18.0,
-            outerPadding: 16.0,
-            dimmingOpacity: 0.37
+            innerPadding: Globals.innerPadding,
+            outerPadding: Globals.outerPadding,
+            dimmingOpacity: Globals.dimmingOpacity
         )) {
             DynamicOnboardingViewWrapper(contentState: $contentState, activeCard: $activeCard)
         }
